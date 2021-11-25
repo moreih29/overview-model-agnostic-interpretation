@@ -1,11 +1,5 @@
 # An Overview of Model-Agnostic Interpretation Methods
 
----
-Github의 마크다운이 수식을 변환하지 못하기 때문에, github에서도 읽을 수 있도록 readme_book_for_github.ipynb에 동일한 내용을 업로드함
-
----
-
-
 ## 개요
 - 모델의 종류에 관계 없는 해석 방법
 
