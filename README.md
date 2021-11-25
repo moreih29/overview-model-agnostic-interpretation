@@ -1,5 +1,11 @@
 # An Overview of Model-Agnostic Interpretation Methods
 
+---
+Github의 마크다운이 수식을 변환하지 못하기 때문에, github에서도 읽을 수 있도록 readme_book_for_github.ipynb에 동일한 내용을 업로드함
+
+---
+
+
 ## 개요
 - 모델의 종류에 관계 없는 해석 방법
 
@@ -19,6 +25,7 @@
     - $\hat{f}(X_s = 30)={1 \over 20}*200+{3 \over 10}*250+{5 \over 10}*300+{1 \over 10}*350=270$→ (2)
     - 하지만, $p(X_c)$는 주어지지 않기 때문에 (2)는 (1)처럼 몬테카를로(샘플링) 방법으로 계산
     - 다른 나이값(..., 28, 29, 31, 32, ...)에 대해서도 마찬가지로 계산
+
 ### 2. Individual Conditional Expectation (ICE)
 
 - 각 관측치의 dependence를 개별적으로 시각화
